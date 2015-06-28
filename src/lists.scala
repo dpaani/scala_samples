@@ -12,8 +12,6 @@ object lists {
     
     languages.foreach { language => println(language) }
     
-    languages+("ddd")
-    
     println("-------------")
     languages.foreach { language => println(language.toUpperCase) }
     println("-------------")
